@@ -11,3 +11,8 @@
 - maven：3.5及以上（阿里云仓库）
 - mysql：5.7及以上
 - lombok：idea 插件
+
+### 2. 模块划分
+- cloud-provider-payment8001：服务提供者-----支付模块
+- cloud-consumer-order80：服务消费者-----订单模块
+- cloud-api-commons：自定义jar包-----公共模块
