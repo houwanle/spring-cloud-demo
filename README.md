@@ -14,9 +14,11 @@
 
 ### 2. 模块划分
 - cloud-provider-payment8001：服务提供者-----支付模块
+- cloud-provider-payment8002：服务提供者-----支付模块
 - cloud-consumer-order80：服务消费者-----订单模块
 - cloud-api-commons：自定义jar包-----公共模块
 - cloud-eureka-server7001：服务注册中心------Eureka模块
+- cloud-eureka-server7002：服务注册中心------Eureka模块
 
 ### 3. Hosts文件修改
 ```
