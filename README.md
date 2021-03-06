@@ -20,8 +20,4 @@
 - cloud-eureka-server7001：服务注册中心------Eureka模块
 - cloud-eureka-server7002：服务注册中心------Eureka模块
 
-### 3. Hosts文件修改
-```
-127.0.0.1 eureka7001.com  
-127.0.0.1 eureka7002.com
-```
+
