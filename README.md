@@ -21,6 +21,7 @@
 - cloud-api-commons：自定义jar包-----公共模块
 - cloud-eureka-server7001：服务注册中心------Eureka模块
 - cloud-eureka-server7002：服务注册中心------Eureka模块
-- cloud-provider-payment8004:服务提供者-----支付模块(注册到zookeeper)
+- cloud-provider-payment8004：服务提供者-----支付模块(注册到zookeeper)
+- cloud-consumerzk-order80：服务消费者------订单模块(注册到zookeeper)
 
 
