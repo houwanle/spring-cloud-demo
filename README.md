@@ -24,5 +24,5 @@
 - cloud-provider-payment8004：服务提供者-----支付模块(注册到zookeeper)
 - cloud-consumerzk-order80：服务消费者------订单模块(注册到zookeeper)
 - cloud-providerconsul-payment8006：服务提供者------支付模块(注册到consul)
-
+- cloud-consumerconsul-order80：服务消费者------订单模块(注册到consul)
 
