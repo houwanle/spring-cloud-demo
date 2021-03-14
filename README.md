@@ -13,6 +13,7 @@
 - mysql：5.7及以上
 - lombok：idea 插件
 - zookeeper：docker 安装 zookeeper
+- consul：Windows 安装版
 
 ### 2. 模块划分
 - cloud-provider-payment8001：服务提供者-----支付模块
