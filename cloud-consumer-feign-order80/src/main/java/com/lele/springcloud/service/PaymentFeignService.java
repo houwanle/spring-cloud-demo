@@ -2,7 +2,6 @@ package com.lele.springcloud.service;
 
 import com.lele.springcloud.entities.CommonResult;
 import com.lele.springcloud.entities.Payment;
-import feign.Param;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,4 +18,7 @@ public interface PaymentFeignService {
 
     @GetMapping(value = "/payment/get/{id}")
     CommonResult<Payment> getPaymentById(@PathVariable("id") Long id);
+
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout();
 }
