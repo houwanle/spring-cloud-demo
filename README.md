@@ -27,4 +27,5 @@
 - cloud-providerconsul-payment8006：服务提供者------支付模块(注册到consul)
 - cloud-consumerconsul-order80：服务消费者------订单模块(注册到consul)
 - cloud-consumer-feign-order80：使用 OpenFeign 的消费者模块
+- cloud-provider-hystrix-payment8001：使用 Hystrix 的服务提供者模块
 
