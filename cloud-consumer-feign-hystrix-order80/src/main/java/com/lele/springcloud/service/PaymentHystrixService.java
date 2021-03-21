@@ -1,12 +1,10 @@
 package com.lele.springcloud.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import java.nio.file.Path;
 
 /**
  * @author: lele
@@ -14,7 +12,7 @@ import java.nio.file.Path;
  * @description:
  */
 @Component
-@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT")
+@FeignClient(value = "CLOUD-PROVIDER-HYSTRIX-PAYMENT", fallback = PaymentFallbackService.class)
 public interface PaymentHystrixService {
 
     @GetMapping("/payment/hystrix/ok/{id}")
