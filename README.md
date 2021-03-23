@@ -30,3 +30,4 @@
 - cloud-provider-hystrix-payment8001：使用 Hystrix 的服务提供者模块
 - cloud-consumer-feign-hystrix-order80：使用 Hystrix 的消费者模块
 - cloud-consumer-hystrix-dashboard9001：Hystrix Dashboard 模块
+- cloud-gateway-gateway9527：网关 Gateway 模块
