@@ -32,3 +32,4 @@
 - cloud-consumer-hystrix-dashboard9001：Hystrix Dashboard 模块
 - cloud-gateway-gateway9527：网关 Gateway 模块
 - cloud-config-center-3344：配置中心模块
+- cloud-config-client-3355：配置中心客户端
