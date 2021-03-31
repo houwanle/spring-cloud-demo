@@ -22,3 +22,16 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+  rabbitmq:
+    host: localhost    #15672 是管理界面的端口  5672是连接mq的端口
+    port: 5672
+    username: guest
+    password: guest
+
