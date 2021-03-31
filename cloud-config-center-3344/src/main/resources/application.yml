@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://gitee.com/houwanle/spring-cloud-config.git  #gittee上的仓库名称
           username: houwanle
-          password: lele1995@gitee
+          password: 账号密码
           # 搜索目录
           search-paths:
             - spring-cloud-config

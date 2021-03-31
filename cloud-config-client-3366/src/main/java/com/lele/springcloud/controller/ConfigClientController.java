@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: lele
- * @date: 2021/3/31 7:17
+ * @date: 2021/3/31 21:44
  * @description:
  */
 @RestController
 @RefreshScope
 public class ConfigClientController {
-
     @Value("${config.info}")
     private String configInfo;
 
