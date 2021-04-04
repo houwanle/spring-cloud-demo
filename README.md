@@ -35,3 +35,4 @@
 - cloud-config-client-3355：配置中心客户端
 - cloud-config-client-3366：配置中心客户端
 - cloud-stream-rabbitmq-provider8801：消息驱动之生产者模块
+- cloud-stream-rabbitmq-provider8801：消息驱动之消费者模块
