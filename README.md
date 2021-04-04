@@ -37,3 +37,4 @@
 - cloud-stream-rabbitmq-provider8801：消息驱动之生产者模块
 - cloud-stream-rabbitmq-provider8802：消息驱动之消费者模块
 - cloud-stream-rabbitmq-provider8803：消息驱动之消费者模块
+- cloudalibaba-provider-payment9001：注册到nacos的生产者模块
