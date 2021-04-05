@@ -40,4 +40,5 @@
 - cloudalibaba-provider-payment9001：注册到nacos的生产者模块
 - cloudalibaba-provider-payment9002：注册到nacos的生产者模块
 - cloudalibaba-consumer-nacos-order83：注册到nacos的消费者模块
+- cloudalibaba-config-nacos-client3377：注册到nacos并且从nacos获取配置信息的模块
 
