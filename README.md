@@ -44,4 +44,4 @@
 
 - seata-order-service2001：注册到nacos的订单seata模块
 - seata-storage-service2002：注册到nacos的库存seata模块
-
+- seata-storage-service2003：注册到nacos的账户seata模块
