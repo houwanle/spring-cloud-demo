@@ -42,7 +42,9 @@
 - cloudalibaba-consumer-nacos-order83：注册到nacos的消费者模块
 - cloudalibaba-config-nacos-client3377：注册到nacos并且从nacos获取配置信息的模块
 - cloudalibaba-sentinel-service8401：注册到nacos的sentinel模块
-
+- cloudalibaba-provider-payment9003：服务提供者
+- cloudalibaba-provider-payment9004：服务提供者
+- cloudalibaba-consumer-nacos-order84：服务消费者
 - seata-order-service2001：注册到nacos的订单seata模块
 - seata-storage-service2002：注册到nacos的库存seata模块
 - seata-storage-service2003：注册到nacos的账户seata模块
